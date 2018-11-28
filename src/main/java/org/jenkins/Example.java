@@ -15,6 +15,7 @@ public class Example {
 	}
 
 	public static void main(String[] args) throws Exception {
+		System.getProperties().put( "server.port", 8090 ); 
 		SpringApplication.run(Example.class, args);
 	}
 
